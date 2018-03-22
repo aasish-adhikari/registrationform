@@ -87,7 +87,12 @@ input{
   justify-content: space-between;
   max-width: 320px;
 }
-
+.pagefooter{
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
 /*tablets on landscape orientations*/
 @media screen
 and (max-device-width: 1024px){
@@ -143,6 +148,10 @@ and (max-device-width: 480px){
   .btn-cancel{
     width: 100%;
     margin-top: 10px;
+  }
+  .pagefooter{
+    font-size: 12px;
+    font-size: 1.2rem;
   }
 
 }
